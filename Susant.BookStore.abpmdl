@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Susant.BookStore.Application": {
+      "path": "src/Susant.BookStore.Application/Susant.BookStore.Application.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.Application.Tests": {
+      "path": "test/Susant.BookStore.Application.Tests/Susant.BookStore.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Susant.BookStore.Domain.Shared": {
+      "path": "src/Susant.BookStore.Domain.Shared/Susant.BookStore.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.Application.Contracts": {
+      "path": "src/Susant.BookStore.Application.Contracts/Susant.BookStore.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.HttpApi": {
+      "path": "src/Susant.BookStore.HttpApi/Susant.BookStore.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.HttpApi.Client": {
+      "path": "src/Susant.BookStore.HttpApi.Client/Susant.BookStore.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.EntityFrameworkCore.Tests": {
+      "path": "test/Susant.BookStore.EntityFrameworkCore.Tests/Susant.BookStore.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Susant.BookStore.EntityFrameworkCore": {
+      "path": "src/Susant.BookStore.EntityFrameworkCore/Susant.BookStore.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.TestBase": {
+      "path": "test/Susant.BookStore.TestBase/Susant.BookStore.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Susant.BookStore.Domain.Tests": {
+      "path": "test/Susant.BookStore.Domain.Tests/Susant.BookStore.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Susant.BookStore.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Susant.BookStore.HttpApi.Client.ConsoleTestApp/Susant.BookStore.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Susant.BookStore.DbMigrator": {
+      "path": "src/Susant.BookStore.DbMigrator/Susant.BookStore.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.HttpApi.Host": {
+      "path": "src/Susant.BookStore.HttpApi.Host/Susant.BookStore.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Susant.BookStore.Domain": {
+      "path": "src/Susant.BookStore.Domain/Susant.BookStore.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
