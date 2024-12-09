@@ -59,6 +59,10 @@ public class BookStoreDbContext :
     //Department Management
     public DbSet<Department> Departments { get; set; }
     public DbSet<DepartmentType> DepartmentTypes { get; set; }
+    
+    //Book Management
+    public DbSet<Book> Books { get; set; }
+    public DbSet<Shelf> Shelves { get; set; }
 
     #endregion
 

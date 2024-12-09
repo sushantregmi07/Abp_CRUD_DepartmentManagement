@@ -19,5 +19,13 @@ public class AutoMapperProfile : Profile
         // DepartmentType mappings
         CreateMap<DepartmentType, DepartmentTypeDto>();
         CreateMap<CreateDepartmentTypeDto, DepartmentType>();
+        
+        // Book mappings
+        CreateMap<Book, BookDto>().ForMember(dest => dest.RackName, opt => opt.MapFrom(src => src.Shelf.RackName));
+        CreateMap<CreateBookDto, Book>();
+        
+        // Shelf mappings
+        CreateMap<Shelf, ShelfDto>();
+        CreateMap<CreateShelfDto, Shelf>();
     }
 }
